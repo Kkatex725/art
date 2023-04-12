@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+.mark{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    transition: all 0.3s;
+    background-size: cover;
+    position: relative;
+}
+.mark>div{
+    margin: 0 40px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 26px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    z-index: 10;
+}
+.mark>div>span{
+    font-size: 14px !important;
+}
+.mark_img1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url("../images/mainpage_left.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0;
+    margin: 0 !important;
+    transition: all 0.6s;
+}
+.mark_img2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: url("../images/mainpage_right.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0;
+    margin: 0 !important;
+    transition: all 0.6s;
+}
+.center_text{
+    width: 120px;
+}

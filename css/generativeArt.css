@@ -1,0 +1,59 @@
+.center{
+    font-family: 'Chivo', sans-serif;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: white;
+}
+.menu{
+    font-family: 'Chivo', sans-serif;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: white;
+}
+.menu>span{
+    font-size: 14px !important;
+}
+body{
+    background: black;
+}
+video{
+    width: 100%;
+}
+.con2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 6vw 0;
+}
+.con2>video{
+    width: 50%;
+}
+.con2_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.con2_title>div{
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+.con2_title>div>span{
+    font-size: 14px;
+}
+.con3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 6vw 0;
+}
+.con3>video{
+    width: 40%;
+}
+.left_title{
+    font-size: 26px !important;
+}

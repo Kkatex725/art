@@ -1,0 +1,63 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3vw;
+    position: sticky !important;
+    top: 0;
+    background: black;
+    z-index: 999;
+}
+body{
+    background: black;
+}
+.con1{
+    width: 100%;
+    padding: 5vw 0;
+    background: black;
+}
+.con1_con{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+.con1_text{
+    width: 90%;
+    margin: 40px auto 40px auto;
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+}
+.con2{
+    width: 100%;
+}
+.con3_con{
+    width: 90%;
+    margin: 3vw auto 3vw auto;
+
+}
+.con3{
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+.con4{
+    width: 100%;
+    background: black;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+.con4_con{
+    width: 50%;
+    margin: auto;
+    padding: 3vw 0;
+}
